@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: slave
-        image: forestgun007/gb-redisslave
+        image: platform9/gb-redisslave:v1
         resources:
           requests:
             cpu: 100m
